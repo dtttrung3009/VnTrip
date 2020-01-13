@@ -1,0 +1,15 @@
+.search_bar{
+    margin: 0 auto;
+    background-color: #77ADD4;
+    display: flex;
+    width: 90%;
+}
+.ml_20{
+    margin-left: 25px;
+}
+.in1{
+    width: 50%;
+}
+.btn_search{
+    transform: translateY(30px);
+}
