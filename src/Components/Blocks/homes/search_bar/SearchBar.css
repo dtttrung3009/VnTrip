@@ -1,15 +1,37 @@
-.search_bar{
+.search_bar {
     margin: 0 auto;
     background-color: #77ADD4;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.ml {
+    margin-left: 30px;
+}
+
+button {
+    width: 120%;
+}
+
+.btn_search {
     display: flex;
+    align-items: center;
+    transform: translateY(8px);
+}
+
+.symbol {
+    margin: 0 auto;
+    background-color: #77ADD4;
     width: 90%;
 }
-.ml_20{
-    margin-left: 25px;
+
+.right {
+    background-color: #ffffff;
 }
-.in1{
-    width: 50%;
+
+.symbol_child {
+    height: 50px;
 }
-.btn_search{
-    transform: translateY(30px);
+.mr{
+    margin-right: 20px;
 }

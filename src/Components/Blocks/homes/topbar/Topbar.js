@@ -4,17 +4,17 @@ import './Topbar.css';
 class Topbar extends Component {
     render() {
         return (
-            <div className="navbar">
-                <div className="dropdown">
-                    <button className="dropbtn">VNĐ
-                        <i className="fa fa-angle-down"></i>
-                    </button>
-                    <div className="dropdown-content">
-                        <div className="arrow"></div>
-                        <div className="txt">Currency</div>
-                        <a href="#"><span>VND</span>Việt Nam Đồng</a>
-                        <a href="#"><span>USD</span>US Dollar</a>
+            <div className="dropdown">
+                <a className="dropbtn">VNĐ
+                <span className={'fa fa-angle-down'}></span></a>
+                <div className="dropdown-content">
+                    <div className={'triangle'}></div>
+                    <div className={'dropdown_a'}>
+                        <p>Currency</p>
+                        <a href="#">CSS và CSS3</a>
+                        <a href="#">HTML</a>
                     </div>
+
                 </div>
             </div>
         );
